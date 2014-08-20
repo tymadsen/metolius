@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+      {% include navbar.html %}
+
+      <div class="row">
+        <div class="row-offcanvas row-offcanvas-left">
+
+          <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            {% include subnav.html %}
+          </div><!--/col-->
+
+          <div class="col-xs-12 col-sm-9">
+            <div id="product-content">
+              <p class="pull-left visible-xs">
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+              </p>
+
+              {{ content }}
+            </div>
+          </div><!--/col-->
+
+        </div>
+      </div><!--/row-->
+
+      {% include footer.html %}
+    </div><!--/.container-->
+  </body>
+</html>

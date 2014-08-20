@@ -1,0 +1,10 @@
+# Site settings
+title: Metolius Climbing
+short_title: Metolius Climbing
+email: info@metoliusclimbing.com
+description: "Climbing gear"
+baseurl: "/metolius"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
