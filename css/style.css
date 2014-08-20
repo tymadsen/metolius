@@ -342,7 +342,7 @@ p, ol, ul {
   border-color: #eee;
 }
 
-#product-image-thumbs-hrz > a.zoomThumbActive {
+#product-image-thumbs-hrz > a.selected {
   border-color: #ccc;
 }
 
@@ -457,6 +457,11 @@ p, ol, ul {
 
 .zoom-gallery-preview {
   display: inline-block;
+}
+
+.loupe {
+  border-radius: 50%;
+  border: rgba(0,0,0,0.4) solid 1px;
 }
 
 .fancybox-skin {
