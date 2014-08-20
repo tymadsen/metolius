@@ -461,7 +461,9 @@ p, ol, ul {
 
 .loupe {
   border-radius: 50%;
-  border: rgba(0,0,0,0.4) solid 1px;
+  border: #ccc solid 1px;
+  border-color: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
 }
 
 .fancybox-skin {
@@ -476,22 +478,21 @@ p, ol, ul {
   border-top-width: 1px;
   border-top-color: #777;
   border-top-style: solid;
-  padding-top:5px;
-  height: 2.1em;
+  padding: 5px 0;
   background: #FFFFFF;
   margin-top: 10px;
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
   clear:both;
-  
 }
-#footer ul {
 
+#footer ul {
   margin: 0;
   padding: 4px 0 5px 0;
   list-style: none;
-} 
+}
+
 #footer li {
   display: inline;
   margin: 0 3px;
@@ -516,10 +517,6 @@ p, ol, ul {
   
 
 #copyright {
-  padding:0px 0 0 0;
-  width: 750px;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
+  margin-bottom: 15px;
   font-size: 9px;
 } 
