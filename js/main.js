@@ -22,7 +22,8 @@ $(function() {
   var previewContainer = $('.zoom-gallery-preview'),
       thumbContainer = $('#product-image-thumbs-hrz'),
       largeImages = [],
-      selectedImage = 0;
+      selectedImage = 0,
+      touchX, touchY;
 
   thumbContainer.find('a[data-img-sm]').each(function(i) {
     var smImg = $(this).data('img-sm'),
@@ -52,6 +53,17 @@ $(function() {
   previewContainer.loupe({
     width: 240,
     height: 240
+  }).on('touchstart', function(e) {
+    var touch = e.originalEvent.touches[0];
+    touchX = touch.clientX;
+    touchY = touch.clientY;
+  }).on('touchend', function(e) {
+    e.preventDefault();
+    var touch = e.originalEvent.changedTouches[0];
+
+    if (Math.abs(touch.clientX - touchX) < 5 && Math.abs(touch.clientY - touchY) < 5) {
+      $.fancybox(largeImages, { index: selectedImage });
+    }
   }).add('.loupe').click(function(e) {
     e.preventDefault();
     e.stopPropagation();
