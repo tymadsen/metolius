@@ -32,6 +32,48 @@ p a {
   text-decoration:underline;
 }
 
+.content-wrapper {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.default-content {
+  background: #333;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.default-content p {
+  margin: 15px 0;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.default-content img {
+  margin: 15px auto;
+  border: #fff solid 3px;
+}
+
+.bottom-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 #product-content ul a {text-decoration:underline;}
 
 #product-manuals p {text-decoration:underline;
@@ -483,12 +525,33 @@ p, ol, ul {
   
 
 #copyright {
-  margin-bottom: 15px;
+  padding-bottom: 15px;
   font-size: 9px;
 }
 
 
 @media screen and (max-width: 767px) {
+  .bg-image {
+    position: relative;
+    height: 200px;
+    bottom: auto;
+  }
+
+  .default-content {
+    background-color: #333;
+  }
+
+  .bottom-content {
+    position: relative;
+    bottom: auto;
+  }
+
+  #header,
+  #footer,
+  #copyright {
+    opacity: 1;
+  }
+
   /*
    * Off Canvas
    * --------------------------------------------------
@@ -535,6 +598,18 @@ p, ol, ul {
     text-align: right;
   }
   #navlinks img {
-    height: 34px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 750px;
   }
 }

@@ -1,48 +1,72 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    {% include head.html %}
+    <style type="text/css">
+      #header,
+      #footer,
+      #copyright {
+        background: white;
+        opacity: 0.9;
+      }
 
-  {% include head.html %}
+      #header {
+        margin-bottom: 0;
+      }
 
+      #footer {
+        margin-top: 0;
+      }
+
+      .style1 {
+        color: #FFFFFF;
+        margin: 10px;
+      }
+      .style3 {
+        color: #FFFFFF;
+        margin: 10px;
+        font-weight: bold;
+        font-size: 14px;
+        font-style: italic;
+      }
+      .style5 {
+        font-weight: bold;
+        font-size: 12px;
+        color: #FFFFFF;
+        font-style: italic;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+      .style6 {font-size: 14px}
+    </style>
+    <script type="text/javascript">
+      function drawImage() {
+        var n = 22,
+            firstPart = '<div class="bg-image" style="background-image:url(\'' + 'images/home/home',
+            lastPart = '.jpg\');"></div>';
+
+        var i = Math.ceil(Math.random() * n);
+        document.write(firstPart + i + lastPart);
+      }
+    </script>
+  </head>
   <body>
+    <div class="content-wrapper">
+      {% include navbar.html %}
 
-  {% include navbar.html %}
+      <script type="text/javascript">
+      <!--
+      drawImage();
+      //-->
+      </script>
 
-  <div id="masthead">  
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-2 col-sm-3">&nbsp;</div>
-        <div class="col-xs-8 col-sm-6 text-center">
-          <h1><img class="img-responsive" src="{{ "/images/fish_logo.png" | prepend: site.baseurl }}" /></h1>
-          <p class="lead">{{ site.description }}</p>
-        </div>
-        <div class="col-xs-2 col-sm-3">&nbsp;</div>
-      </div> 
-    </div><!-- /cont -->
-    
-    <div class="container container-main">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="top-spacer"> </div>
-        </div>
-      </div> 
-    </div><!-- /cont -->
-  </div>
+      <div class="bottom-content">
+        {{ content }}
 
-  <div class="container container-main">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-main">
-          <div class="panel-body">
-            {% include header.html %}
-
-            {{ content }}
-          </div>
-        </div>
+        {% include footer.html %}
       </div>
     </div>
-  </div>
-
-  {% include footer.html %}
-
   </body>
 </html>
