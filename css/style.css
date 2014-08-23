@@ -423,19 +423,29 @@ p, ol, ul {
 }
 
 #product-add-to-cart-drop-menu {
-  background-color: #f3f3f3;
-  padding: 12px 18px 0;
+  display: inline-block;
+  padding: 12px 18px;
   margin: 20px 0 20px;
-  border-radius: 5px;
+  background-color: #f3f3f3;
   border: #ccc solid 1px;
-  text-align:center;
+  border-radius: 5px;
 }
 
 #product-add-to-cart-drop-menu > p {
   font-size:12px;
   font-weight: bold;
+  margin-bottom: 9px;
 }
 
+#product-add-to-cart-drop-menu > select,
+#product-add-to-cart-drop-menu > input {
+  float: left;
+}
+
+#product-add-to-cart-drop-menu > select {
+  margin-right: 18px;
+  width: auto;
+}
 
 #product-manuals {
   width: 280px;
@@ -616,6 +626,10 @@ p, ol, ul {
   }
   #navlinks img {
     height: 34px;
+  }
+
+  #product-add-to-cart-drop-menu {
+    width: 100%;
   }
 }
 
