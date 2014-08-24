@@ -45,14 +45,14 @@ p a {
   z-index: -1;
 }
 
-.default-content {
+.home-content {
   margin-top: 1px;
   height: 152px;
   overflow: hidden;
   background: #555;
 }
 
-.default-content p {
+.home-content p {
   margin: 15px 0 15px 18px;
   color: #FFFFFF;
   font-weight: bold;
@@ -61,7 +61,7 @@ p a {
   line-height: 1.8;
 }
 
-.default-content img {
+.home-content img {
   margin: 0 auto;
   border-left: #fff solid 1px;
 }
@@ -544,18 +544,18 @@ p, ol, ul {
     bottom: auto;
   }
 
-  .default-content {
+  .home-content {
     padding-left: 9px;
     padding-right: 9px;
     text-align: center;
     height: auto;
   }
 
-  .default-content p {
+  .home-content p {
     margin-left: 0;
   }
 
-  .default-content img {
+  .home-content img {
     border: #fff solid 1px;
     margin-bottom: 15px;
   }
