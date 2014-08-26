@@ -1,7 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/metolius_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Rock Climbing Gear</title>
 <META NAME="Keywords" CONTENT="rock climbing, climbing gear, climbing equipment, bouldering, mountaineering, climbing holds, cams, caming devices, tcu, supercam, master cam, passive protection, curve nuts, curve hexes, crag station, portaledge, wood training boards, haul bags, rappelling device, belay device, bouldering pads, ropes, Super Chalk, chalk, chalk bags, carabiner, belay biner, training boards, belay gloves, climbing gloves, How to Guides, carabiners, quickdraws, harnesses, rope bags, gear slings">
@@ -10,117 +14,120 @@
 
 <meta name="verify-v1" content="OC1kqqcCeYsISH+b6pcqsgpoSbRyhrRxH3ZzpeghiNg=" />
 
-<script type="text/javascript" language="JavaScript">
+<script type="text/javascript">
+  function printImage() {
+    var n = 22,
+        firstPart = '<img src="images/home/home',
+        lastPart = '.jpg" class="img-responsive" />';
 
-NumberOfImagesToRotate = 22;
-
-
-
-FirstPart = '<img src="images/home';
-LastPart = '.jpg" height="420" width="750">';
-
-function printImage() {
-var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
-document.write(FirstPart + r + LastPart);
-}
-
+    var i = Math.ceil(Math.random() * n);
+    document.write(firstPart + i + lastPart);
+  }
 </script>
 <!-- InstanceEndEditable -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link href="metolius.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="print.css" media="print" />
 <!-- InstanceBeginEditable name="head" -->
 <style type="text/css">
-<!--
-.style1 {
-	color: #FFFFFF;
-	margin: 10px;
-}
-.style3 {
-	color: #FFFFFF;
-	margin: 10px;
-	font-weight: bold;
-	font-size: 14px;
-	font-style: italic;
-}
-.style5 {
-	font-weight: bold;
-	font-size: 12px;
-	color: #FFFFFF;
-	font-style: italic;
-	margin-top: 5px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-}
-.style6 {font-size: 14px}
--->
-</style>
-<!-- InstanceEndEditable -->
+  .menu-toggle {
+    display: none !important;
+  }
 
+  #navlinks {
+    text-align: center;
+  }
+
+  #navlinks img {
+    height: 38px;
+  }
+</style>
 <meta http-equiv="imagetoolbar" content="no" />
 </head>
 
 <body>
-<div id="header">
-<div id="navlinks"> <a href="climbing-gear.html"><img src="images/gear-icon.jpg" width="78" height="38" alt="Gear" /></a>
-  <a href="extras.html"><img src="images/extras-icon.jpg" width="95" height="38" alt="Extras" /></a>
-  <a href="site_map.html"><img src="images/search-icon.jpg" width="95" height="38" alt="Search" /></a>
+<div class="container">
+  <div id="header">
+    <div id="headerlogo">
+      <a href="http://www.metoliusclimbing.com/">
+        <img src="images/metolius_logo.jpg" alt="Metolius Logo" width="296" height="38" align="top" class="img-responsive" />
+      </a>
+    </div>
 
-</div>
+    <div id="navlinks">
+      <img src="images/menu-icon.png" alt="Menu" class="visible-xs pull-left menu-toggle" data-toggle="offcanvas" />
+      <a href="climbing-gear.html">
+        <img src="images/gear-icon.jpg" alt="Gear" />
+      </a>
+      <a href="extras.html">
+        <img src="images/extras-icon.jpg" alt="Extras" />
+      </a>
+      <a href="site_map.html">
+        <img src="images/search-icon.jpg" alt="Search" />
+      </a>
+    </div>
 
-<div id="headerlogo"><a href="http://www.metoliusclimbing.com/"><img src="images/metolius_logo.jpg" alt="Metolius Logo" width="317" height="38" align="top" /></a></div>
-</div>
+    <div class="clearfix"></div>
+  </div>
 
 <!--Content-->
 <!-- InstanceBeginEditable name="MainContent" -->
-<div id="main-content"><script type="text/javascript" language="JavaScript"><!--
+<script type="text/javascript"><!--
 printImage();
 //--></script>
-  <div align="center">
-    <div id="home-secondary-subcontent-left">
-      <div align="justify" class="style1">
-        <table width="100%" height="124" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td height="87"><div align="center">
-              <p align="left" class="style5"><span class="style6">At Metolius our passion is rock climbing and our focus is designing and building the safest and best   climbing gear for Big Wall, Trad, Sport, Bouldering,   Mountaineering, Indoor Climbing Gyms and Training.</span></p>
-            </div>              <div align="center"></div></td>
-          </tr>
-        </table>
-      </div>
+
+<div class="home-content">
+  <div class="row">
+    <div class="col-sm-7">
+      <p>
+        At Metolius our passion is rock climbing and our focus is designing and building the safest and best climbing gear for Big Wall, Trad, Sport, Bouldering, Mountaineering, Indoor Climbing Gyms and Training.
+      </p>
+    </div>
+    <div class="col-sm-5">
+      <a href="beth-rodden-wall.html">
+        <img src="images/home/beths-wall.jpg" class="img-responsive" alt="Beth's Wall" />
+      </a>
     </div>
   </div>
-  <div id="home-secondary-subcontent-right"><a href="beth-rodden-wall.html"><img src="images/beths-wall.jpg" width="317" height="160" alt="Beth's Wall" /></a></div>
 </div>
+
 <!-- InstanceEndEditable -->
-<div id="footer">
-  <div align="center">
-  
-  
+<div id="footer" class="text-center">
     <ul>
       <li><a href="dealer.html">dealers </a> </li>
       <li><a href="http://www.metoliusclimbing.com/cgi-metoliusclimbing/sb/order.cgi?storeid=*240e47a1b4d3b72c743bc641f6b278011e40aeab&amp;function=show">shopping cart</a> </li>
-      <li><a href="site_map.html"> </a><a href="shipping-ordering.html">ordering info</a> </li>
+      <li><a href="shipping-ordering.html">ordering info</a> </li>
       <li><a href="warranty-returns-repairs.html">warranty and repairs</a> </li>
       <li><a href="disclaimer-copy_right.html">disclaimer</a> </li>
       <li><a href="site_map.html">search</a> </li>
       <li class="last"><a href="contact-info.html">contact</a></li>
     </ul>
-  </div>
 </div>
-<div id="copyright">
-  <div align="center"><a href="disclaimer-copy_right.html"></a>
-    <table width="325" height="26">
-      <tr>
-        <td width="183" align="center"><a href="disclaimer-copy_right.html" class="table_font">&copy; Metolius Climbing</a></td>
-        <td width="20" align="center"><a href="http://www.facebook.com/metoliusclimb"><img src="images/Facebook_icon.png" width="20" height="20" alt="Facebook" /></a></td>
-        <td width="20" align="center"><a href="https://twitter.com/#!/MetoliusClimb"><img src="images/twitter-icon.png" width="20" height="16" alt="Twitter" /></a></td>
-        <td width="20" align="center"><a href="http://www.youtube.com/user/metolius?feature=mhum"><img src="images/Youtube-icon.png" width="20" height="20" /></a></td>
-        <td width="20" align="center"><a href="http://instagram.com/metoliusclimbing"><img src="images/instagram-icon.png" width="20" height="20" alt="Instagram" /></a></td>
-        <td width="20" align="center"><a href="http://www.pinterest.com/metoliusclimb/"><img src="images/Pinterest-icon.png" width="20" height="20" alt="Pinterest" /></a></td>
-        <td width="20" align="center"><a href="http://metoliusclimbing.tumblr.com/"><img src="images/tumblr-icon.png" width="20" height="20" alt="Tumblr" /></a></td>
-        <td width="20" align="center"><a href="https://plus.google.com/+Metoliusclimbing/posts"><img src="images/google-plus-icon.png" width="20" height="20" alt="Google +" /></a></td>
-      </tr>
-    </table>
+<div id="copyright" class="text-center">
+  <a href="disclaimer-copy_right.html" class="table_font">&copy; Metolius Climbing</a> <span class="hidden-xs">&nbsp;&nbsp;&nbsp;</span>
+  <a href="http://www.facebook.com/metoliusclimb">
+    <img src="images/Facebook_icon.png" width="20" height="20" alt="Facebook" />
+  </a>
+  <a href="https://twitter.com/#!/MetoliusClimb">
+    <img src="images/twitter-icon.png" width="20" height="16" alt="Twitter" />
+  </a>
+  <a href="http://www.youtube.com/user/metolius?feature=mhum">
+    <img src="images/Youtube-icon.png" width="20" height="20" />
+  </a>
+  <a href="http://instagram.com/metoliusclimbing">
+    <img src="images/instagram-icon.png" width="20" height="20" alt="Instagram" />
+  </a>
+  <a href="http://www.pinterest.com/metoliusclimb/">
+    <img src="images/Pinterest-icon.png" width="20" height="20" alt="Pinterest" />
+  </a>
+  <a href="http://metoliusclimbing.tumblr.com/">
+    <img src="images/tumblr-icon.png" width="20" height="20" alt="Tumblr" />
+  </a>
+  <a href="https://plus.google.com/+Metoliusclimbing/posts">
+    <img src="images/google-plus-icon.png" width="20" height="20" alt="Google +" />
+  </a>
+</div>
 </div>
 
 <script type="text/javascript">
