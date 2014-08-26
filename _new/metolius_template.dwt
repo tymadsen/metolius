@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../metolius.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../print.css" media="print" />
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<meta http-equiv="imagetoolbar" content="no" />
+</head>
+
+<body>
+<div id="header">
+<div id="navlinks"> <a href="../climbing-gear.html"><img src="../images/gear-icon.jpg" width="78" height="38" alt="Gear" /></a>
+  <a href="../extras.html"><img src="../images/extras-icon.jpg" width="95" height="38" alt="Extras" /></a>
+  <a href="../site_map.html"><img src="../images/search-icon.jpg" width="95" height="38" alt="Search" /></a>
+
+</div>
+
+<div id="headerlogo"><a href="http://www.metoliusclimbing.com/"><img src="../images/metolius_logo.jpg" alt="Metolius Logo" width="317" height="38" align="top" /></a></div>
+</div>
+
+<!--Content-->
+<!-- TemplateBeginEditable name="MainContent" -->
+<div id="main-content"></div>
+<!-- TemplateEndEditable -->
+<div id="footer">
+  <div align="center">
+  
+  
+    <ul>
+      <li><a href="../dealer.html">dealers </a> </li>
+      <li><a href="http://www.metoliusclimbing.com/cgi-metoliusclimbing/sb/order.cgi?storeid=*240e47a1b4d3b72c743bc641f6b278011e40aeab&amp;function=show">shopping cart</a> </li>
+      <li><a href="../site_map.html"> </a><a href="../shipping-ordering.html">ordering info</a> </li>
+      <li><a href="../warranty-returns-repairs.html">warranty and repairs</a> </li>
+      <li><a href="../disclaimer-copy_right.html">disclaimer</a> </li>
+      <li><a href="../site_map.html">search</a> </li>
+      <li class="last"><a href="../contact-info.html">contact</a></li>
+    </ul>
+  </div>
+</div>
+<div id="copyright">
+  <div align="center"><a href="../disclaimer-copy_right.html"></a>
+    <table width="325" height="26">
+      <tr>
+        <td width="183" align="center"><a href="../disclaimer-copy_right.html" class="table_font">&copy; Metolius Climbing</a></td>
+        <td width="20" align="center"><a href="http://www.facebook.com/metoliusclimb"><img src="../images/Facebook_icon.png" width="20" height="20" alt="Facebook" /></a></td>
+        <td width="20" align="center"><a href="https://twitter.com/#!/MetoliusClimb"><img src="../images/twitter-icon.png" width="20" height="16" alt="Twitter" /></a></td>
+        <td width="20" align="center"><a href="http://www.youtube.com/user/metolius?feature=mhum"><img src="../images/Youtube-icon.png" width="20" height="20" /></a></td>
+        <td width="20" align="center"><a href="http://instagram.com/metoliusclimbing"><img src="../images/instagram-icon.png" width="20" height="20" alt="Instagram" /></a></td>
+        <td width="20" align="center"><a href="http://www.pinterest.com/metoliusclimb/"><img src="../images/Pinterest-icon.png" width="20" height="20" alt="Pinterest" /></a></td>
+        <td width="20" align="center"><a href="http://metoliusclimbing.tumblr.com/"><img src="../images/tumblr-icon.png" width="20" height="20" alt="Tumblr" /></a></td>
+        <td width="20" align="center"><a href="https://plus.google.com/+Metoliusclimbing/posts"><img src="../images/google-plus-icon.png" width="20" height="20" alt="Google +" /></a></td>
+      </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>     <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6523569-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+
+</html>
+
